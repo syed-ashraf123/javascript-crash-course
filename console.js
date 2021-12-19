@@ -1,0 +1,15 @@
+console.time("The time took : ");
+console.log("Normal Console");
+console.error("This is an error");
+console.log("This is an error");
+console.warn("Data not found");
+console.log(3 + 7);
+console.log(8 * 2);
+console.error(5 * 5);
+console.log([1, 2, 3, 4, 5, 6]);
+console.log({ name: "Syed", age: 10 });
+console.table({ name: "Syed", age: 10 });
+console.timeEnd("The time took : ");
+console.log(true);
+console.log(false);
+console.assert(21 > 20, "Age is wrong");
